@@ -12,13 +12,14 @@ class MainActivity : AppCompatActivity() {
         Handler().postDelayed(Runnable
         {
             setContentView(R.layout.one_view)
+
+            val primeiroAcesso = button2
+            primeiroAcesso.setOnClickListener {
+                setContentView(R.layout.one_view_2)
+            }
         }, 3000
         )
-        setContentView(R.layout.one_view)
-        val primeiroAcesso = button2
-        primeiroAcesso.setOnClickListener {
-            setContentView(R.layout.one_view_2)
-        }
+
         
     }
 }
