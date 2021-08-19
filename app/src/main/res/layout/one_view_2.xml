@@ -37,7 +37,7 @@
         android:id="@+id/textView11"
         android:layout_width="351dp"
         android:layout_height="140dp"
-        android:layout_marginTop="432dp"
+        android:layout_marginTop="396dp"
         android:text="Além disso, tenha seus fornecedores nas palmas das mãos"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -47,29 +47,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="#7BAF8D"
-        android:insetLeft="6dp"
-        android:insetRight="6dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+    <include
+        layout="@layout/buttonlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:layout_editor_absoluteX="-6dp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@color/white"
-        android:insetLeft="6dp"
-        android:insetRight="6dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 </androidx.constraintlayout.widget.ConstraintLayout>
