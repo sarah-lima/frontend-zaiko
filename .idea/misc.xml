@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable-v24/ic_launcher_loja_one.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/button_color.xml" value="0.2203125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/circle.xml" value="0.2203125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_launcher_loja_background.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_launcher_loja_one_foreground.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_launcher_loja_two_background.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_loja_dois_splash.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_loja_um_splash.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_ltree_background.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/loja_second_foreground.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_five.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_four.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_one.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_tree.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_two.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/initial.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/layout_buttons_splash.xml" value="0.25" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja_one_round.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja_two.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja_two_round.xml" value="0.1125" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1125" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
