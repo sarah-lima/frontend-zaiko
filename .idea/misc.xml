@@ -16,6 +16,7 @@
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/ic_ltree_background.xml" value="0.1125" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/drawable/loja_second_foreground.xml" value="0.1125" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_product.xml" value="0.22" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_five.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_four.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_one.xml" value="0.20416666666666666" />
@@ -23,6 +24,8 @@
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/activity_splash_two.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/initial.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/layout_buttons_splash.xml" value="0.25" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/menu_layout.xml" value="0.22" />
+        <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/layout/product_item.xml" value="0.22" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja.xml" value="0.1125" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja_one_round.xml" value="0.1125" />
         <entry key="..\:/Users/55119/Documents/frontend-zaiko/app/src/main/res/mipmap-anydpi-v26/ic_launcher_loja_two.xml" value="0.1125" />

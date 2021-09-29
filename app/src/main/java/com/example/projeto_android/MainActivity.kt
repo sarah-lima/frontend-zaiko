@@ -1,10 +1,12 @@
 package com.example.projeto_android
 
+import android.content.Intent
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,10 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Handler().postDelayed(Runnable
         {
-            setContentView(R.layout.activity_splash_one)
-            val btnOne: Button = findViewById(R.id.btn_one)
-            btnOne.setBackgroundColor(Color.parseColor("#7BAF8D"))
-            buttons()
+            startActivity(Intent(this@MainActivity, ProductActivity::class.java))
+
+//            setContentView(R.layout.activity_splash_one)
+//            val btnOne: Button = findViewById(R.id.btn_one)
+//            btnOne.setBackgroundColor(Color.parseColor("#7BAF8D"))
+//            buttons()
 
         }, 3000
         )
