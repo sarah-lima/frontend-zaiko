@@ -11,7 +11,7 @@ class MyRetrofit {
     companion object{
         private const val BASE_URL =
 //            "http://54.205.171.136:8080"
-                "http://10.6.1.59:8080/"
+                "http://10.6.0.157:8080/"
         var myRetrofit: MyRetrofit?= null
 
         @get:Synchronized

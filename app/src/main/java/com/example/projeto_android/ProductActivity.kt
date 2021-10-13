@@ -2,6 +2,8 @@ package com.example.projeto_android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -41,5 +43,10 @@ class ProductActivity : AppCompatActivity() {
 
         })
 
+    }
+
+    fun dropDown(v: View) {
+        val teste:LinearLayout = findViewById(R.id.linear)
+        teste.visibility = View.VISIBLE
     }
 }

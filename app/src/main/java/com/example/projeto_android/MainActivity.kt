@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             btnSeven.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnEight.setBackgroundColor(Color.parseColor("#FFFFFF"))
 
-            setContentView(R.layout.activity_splash_one)
+            setContentView(R.layout.activity_splash)
         }
         btnTwo.setOnClickListener {
             btnOne.setBackgroundColor(Color.parseColor("#FFFFFF"))
@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
             btnSix.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnSeven.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnEight.setBackgroundColor(Color.parseColor("#FFFFFF"))
-            setContentView(R.layout.activity_splash_two)
         }
         btnTree.setOnClickListener {
             btnOne.setBackgroundColor(Color.parseColor("#FFFFFF"))
@@ -65,7 +64,6 @@ class MainActivity : AppCompatActivity() {
             btnSix.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnSeven.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnEight.setBackgroundColor(Color.parseColor("#FFFFFF"))
-            setContentView(R.layout.activity_splash_tree)
         }
         btnFour.setOnClickListener {
             btnOne.setBackgroundColor(Color.parseColor("#FFFFFF"))
@@ -76,7 +74,6 @@ class MainActivity : AppCompatActivity() {
             btnSix.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnSeven.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnEight.setBackgroundColor(Color.parseColor("#FFFFFF"))
-            setContentView(R.layout.activity_splash_four)
         }
         btnFive.setOnClickListener {
             btnOne.setBackgroundColor(Color.parseColor("#FFFFFF"))
@@ -87,7 +84,6 @@ class MainActivity : AppCompatActivity() {
             btnSix.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnSeven.setBackgroundColor(Color.parseColor("#FFFFFF"))
             btnEight.setBackgroundColor(Color.parseColor("#FFFFFF"))
-            setContentView(R.layout.activity_splash_five)
         }
 
     }

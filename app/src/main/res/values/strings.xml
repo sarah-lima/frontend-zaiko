@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">projeto-android</string>
+    <string name="app_name">ZAIKO</string>
+    <string name="zaiko">ZAIKO</string>
+    <string name="one_splash_text">Para você lojista geek</string>
 </resources>

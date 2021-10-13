@@ -6,13 +6,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 <com.google.android.material.card.MaterialCardView
     android:layout_width="match_parent"
-    android:layout_height="80dp"
+    android:layout_height="wrap_content"
     android:checkable="true"
     android:clickable="true"
     android:focusable="true"
-    app:cardCornerRadius="16dp"
-    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
     android:layout_margin="16dp"
+    android:layout_marginBottom="0dp"
     android:backgroundTint="@color/color_steps"
     app:layout_constraintDimensionRatio="16:9"
     app:layout_constraintTop_toTopOf="parent"
@@ -23,8 +23,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
-
+        android:onClick="dropDown"
+        android:id="@+id/teste"
+>
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/product_name"
             android:layout_width="wrap_content"
@@ -35,6 +36,27 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text = "tekjn"
             />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FAFAFA"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        >
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/product_price"
             android:layout_width="wrap_content"
@@ -45,13 +67,6 @@
             app:layout_constraintTop_toBottomOf="@id/product_name"
             tools:text = "text"
             />
+    </LinearLayout>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
-            tools:ignore="MissingConstraints" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</com.google.android.material.card.MaterialCardView>
 </androidx.cardview.widget.CardView>
